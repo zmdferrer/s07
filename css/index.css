@@ -1,0 +1,108 @@
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+nav {
+
+	padding: 1rem;
+	margin-bottom: 2rem;
+	border-bottom: 1px solid gray;
+}
+
+nav > ul {
+	list-style-type: none;
+}
+
+/*magpapantay lahat ng lines from list*/
+nav .nav, nav .nav-logo{
+	margin: 0.5rem;
+	display: inline;
+}
+
+/*intro section*/
+#intro {
+
+	padding: 2rem 10% 3rem;
+	text-align: center;
+}
+
+#intro .header, #intro p {
+	margin-bottom: 1rem;
+}
+
+#intro button {
+	color: white;
+	background-color: #c2195b;
+	padding: 1rem;
+	border-radius: 25px;
+	font-weight: bold;
+	font-size: 1rem;
+
+}
+
+/*end of intro section*/
+
+/*succeed-info*/
+
+#succeed-info {
+	padding: 2rem 10% 3rem;
+}
+
+#succeed-info h2 {
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+#succeed-info h3 {
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+#succeed-info .card {
+	display: inline-block;
+	width: 33%;
+	vertical-align: top;
+	min-height: 150px;
+	padding-left: 25px;
+}
+
+/*prefooter section*/
+
+#pre-footer {
+	padding: 2rem 10% 3rem;
+	color: white;
+	background-color: #002540;
+
+}
+
+#pre-footer h3{
+	margin-bottom: 1rem;
+	text-align: left;
+}
+
+#pre-footer .prefoot {
+	display: inline-block;
+	width: 18%;
+	min-height: 120px;
+	vertical-align: top;
+
+}
+
+/*footer section*/
+footer {
+	padding: 0.7rem;
+	text-align: center;
+}
+
+footer span {
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
